@@ -1,0 +1,327 @@
+@media only screen and (max-width:767px) {
+	/* MOVILES
+	body {
+		background-color: red;
+	} */
+	.header-visible{
+		height: 90px !important;
+	}
+
+	.header-visible div a img{
+		width: 160px !important;
+		margin-left: 0.85em;
+	}
+	.header-visible div.btn-menu-nav-contacto{
+		padding: 0em !important;
+	}
+	.header-visible div.btn-menu-nav-contacto p{
+		/*
+		margin-left:-2em !important;
+		*/
+		margin-right: 0em !important;
+	}
+	
+	div.logo-home{
+		margin-top:0em !important;
+	}
+	div.slogan{
+		margin-top:6em !important;
+	}
+	p.slogan1{
+		font-size: 24px !important;
+		line-height: 29px;
+	}
+	p.slogan1 span{
+		display: block;
+	}
+
+	p.slogan3{
+		margin-top:1.5em !important;
+		font-size: 12px !important;
+		line-height: 16px !important;
+	}
+
+	p.slogan3 span{
+		/*text-rendering: optimizeLegibility;*/
+		font-family: 'baskerville', sans-serif;
+	}
+	.home-descubrir{
+		padding: 0 !important;
+	}
+
+	.home-descubrir a:hover{
+		color:#9f1c43;
+		border: 1px solid #9f1c43;	
+	}
+
+	.slide-nav{
+		font-size: 22px;
+	}
+
+	.slide-nav-content{
+	    /*padding: 0px 0 0 2.5em;*/
+
+	    /*
+	    text-align: center;
+	    margin:0 !important;
+		padding: 0 !important;
+		*/
+	}
+
+	.slide-nav ul {
+		margin:0 !important;
+		padding: 0 !important;
+		
+	}
+
+	.slide-nav ul.items-nav{
+		padding-top: 3.0em !important;
+	}
+
+	.slide-nav ul li{
+		margin: 1.6em 0 !important;
+		padding: 0 !important;
+	}
+
+	.slide-nav ul ul li{
+		margin-left: 1.8em !important
+		/*
+		margin: .65em 0 !important;
+		padding: 0 !important;
+		*/
+	}
+
+	.slide-nav .ic-redes{
+		margin-top:4em !important;
+	}
+
+	.slide-nav .ic-redes a:nth-child(1) i{
+		margin-left: 0em !important;
+
+	}
+
+	.slide-nav .ic-redes i{
+		margin: 0 0.5em 0 0.5em;
+		font-size: 26px !important;
+
+	}
+	.slide-nav .btn-slide-nav{
+		padding: 0 !important;
+		margin: 0 !important;
+		margin: 0.3em 2em 0 0 !important;
+	}
+
+	/* CONTACTO	*/
+	.logo-header{
+		padding: 0 !important;
+		margin: 0 !important;
+		margin: 0 0 0 0.5em !important;
+	}
+	
+	.logo-header + div.btn-menu-nav p{
+		/*margin-left: 3em;*/
+		margin-top: 2em !important;
+	}
+
+	main.contacto{
+		padding-top: 90px;
+	}
+	.intro-contacto {
+		margin-top:50px !important;
+	}
+	p.texto-contacto-1{
+		font-size: 24px !important;
+	}
+
+	p.texto-contacto-2{
+		padding-top: 1em !important;
+	}
+
+	/*BOTON FLOAT*/
+	div.btn-contact-float a{
+		color: #232222;
+		background-color: #C2b59b;
+		border:1px solid #C2b59b;
+		right:2.65em;
+		bottom:7.8em;
+		border-radius: 50%;
+		padding: 5px 0 0 1px  !important;
+		width: 50px;
+		height:  50px;
+	}
+
+	div.btn-contact-float a:hover {
+		text-decoration: none;
+		color: #C2b59b;
+		background-color: #232222;
+		border:1px solid #232222;
+	}
+	div.btn-contact-float a p i{
+		padding: 0 !important;
+		padding:4px 0 0 0 !important;
+		margin:0 auto;
+	}
+	div.btn-contact-float a p span{
+		display: none;
+	}
+
+	.boton-secundario{
+		padding: 0.8em 3.5em !important;
+	}
+
+	div.info-contacto{
+		margin:2.5em 0 !important;
+	}
+
+	footer.contacto ul li {
+		padding:0 0 0.5em 0 !important;
+	}
+
+	.politicas a {
+		display: block;
+	}
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1199px){
+	/* TABLETS 
+	body {
+		background-color: blue;
+	}*/
+	.header-visible{
+		height: 140px !important;
+	}
+
+	div.logo-home{
+		margin-top:2.5em !important;
+	}
+	div.slogan{
+		margin-top:8em !important;
+	}
+
+	p.slogan1{
+		line-height: 42px;
+	}
+	p.slogan1 span{
+		display: block;
+	}
+	p.slogan3{
+		line-height: 22px !important;
+	}
+	.home-descubrir{
+		padding: 0 !important;
+	}
+
+	 /************************************/
+	.slide-nav-content{
+
+	    /*padding: 0px 0 0 2.5em;*/
+	    /*
+	    text-align: center;
+	    margin:0 !important;
+		padding: 0 !important;
+		*/
+	}
+
+
+
+	.slide-nav ul {
+
+		margin:0 !important;
+		padding: 0 !important;
+		
+	}
+
+	.slide-nav ul.items-nav{
+		padding-top: 4.6em !important;
+	}
+
+	.slide-nav ul li{
+		margin: 2em 0 !important;
+		padding: 0 !important;
+	}
+
+
+
+	.slide-nav ul ul li{
+		margin-left: 1.8em !important
+		/*
+		margin: .65em 0 !important;
+		padding: 0 !important;
+		*/
+	}
+
+	ul.items-nav,
+	div.ic-redes{
+		/*border: 1px solid red;*/
+		margin-left: 4em !important;
+	}
+	
+
+	/*
+	.slide-nav ul ul li{
+		margin: .85em 0 !important;
+		padding: 0 !important;
+	}
+	*/
+
+	.slide-nav .ic-redes{
+		margin-top:4em !important;
+	}
+	.slide-nav .ic-redes a{
+		
+
+	}
+	.slide-nav .ic-redes a:nth-child(1) i{
+		margin-left: 0em !important;
+
+	}
+	.slide-nav .ic-redes i{
+		margin: 0 1em 0 1em;
+		font-size: 26px !important;
+
+	}
+	.slide-nav .btn-slide-nav{
+		padding: 0 !important;
+		margin: 0 !important;
+		margin: 0.75em 2.2em 0 0 !important;
+	}
+
+
+	/*BOTON FLOAT*/
+	div.btn-contact-float a{
+		color: #232222;
+		text-align: center;
+		background-color: #C2b59b;
+		border:1px solid #C2b59b;
+		position: fixed;
+		right:5em;
+		bottom:4.7em;
+		border-radius: 50%;
+		padding: 5px 0 0 1px  !important;
+		/*padding: 0.65em 1.1em !important;*/
+		width: 50px;
+		height:  50px;
+	}
+
+	div.btn-contact-float a:hover {
+		text-decoration: none;
+		color: #C2b59b;
+		background-color: #232222;
+		border:1px solid #232222;
+	}
+	div.btn-contact-float a p i{
+		padding: 0 !important;
+		padding:4px 0 0 0 !important;
+		margin:0 auto;
+	}
+	div.btn-contact-float a p span{
+		display: none;
+	}
+}
+
+@media only screen and (min-width:1200px) {
+
+}
